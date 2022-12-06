@@ -1,0 +1,116 @@
+.h1  {
+    color: black;
+    
+
+}
+
+.none {
+    display: none
+}
+
+.inline {
+    display: inline;
+    color: red;
+}
+
+.blok {
+    display: block ;
+    color: red;
+}
+
+
+
+.inline {
+    display: inline-block;
+    color: red;
+}
+
+
+
+
+
+
+
+.sekil {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px ;
+    cursor: none;
+}
+
+.h00 {
+    margin: 20px;
+    
+}
+
+.h5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link {
+    background-color: #9A74E2;
+    font-family: sans-serif;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+   
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    animation: aye;
+    animation-duration: 9s;
+
+}
+
+@keyframes aye {
+    from {background-color: rgb(233, 10, 233);}
+  to {background-color: rgb(155, 72, 72);}
+}
+
+.cart {
+   
+    box-shadow: 0 9px 11px 0 rgba(255, 0, 0, 0.836);
+    transition: 0.7s;
+    width: 400px;
+    
+  }
+  
+
+  .cart:hover {
+    box-shadow: 0 9px 15px 0 rgba(27, 4, 4, 0.87);
+  }
+  
+.h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .container {
+    padding: 2px 16px;
+  }
+
+.s0 {
+    display: flex;
+}
+
+.s1 {
+    width: 400px;
+    
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.s2 {
+    width: 400px;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.s3 {
+    width: 400px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
